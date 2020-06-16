@@ -122,3 +122,26 @@ header .hero__content__colorblock {
   position: inherit;
   z-index: -1;
 }
+
+header .hero__content__title, header .hero__content__desription, header .hero__content__underline {
+  color: #FFFFFF;
+  margin-left: 89px;
+}
+
+header .hero__content__title {
+  margin-top: 74px;
+  margin-bottom: 31px;
+}
+
+header .hero__content__underline {
+  width: 151px;
+  border-top: 9px solid #FFFFFF;
+}
+
+header .hero__content__desription {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.165em;
+  line-height: 178.7%;
+  margin-top: 28px;
+}
