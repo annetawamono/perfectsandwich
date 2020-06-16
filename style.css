@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #D0A26D;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+  font-weight: 900;
+  font-size: 70px;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.47em;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.165em;
+}
+
+p, li, a {
+  font-size: 18px;
+}
+
+.container {
+  width: 1030px;
+  overflow-x: hidden;
+  margin: auto;
+  margin-top: 104px;
+}
+
+header.hero {
+  background-color: black;
+  height: 857px;
+  overflow: hidden;
+}
+
+header .hero__imagecover {
+  object-fit: cover;
+  opacity: 0.74;
+  width: 114%;
+  position: relative;
+  top: -79px;
+}
+
+header .hero__logobar {
+  background-color: #1E1713;
+  height: 157px;
+  position: relative;
+  z-index: 2;
+}
+
+header .hero__logobar >div {
+  display: inline-block;
+}
+
+header .hero__logobar__logo {
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  width: 206px;
+  height: 100%;
+  padding-top: 44.72px;
+  padding-left: 64.38px;
+}
+
+header .hero__logobar__logo .top_bun, header .hero__logobar__logo .patty, header .hero__logobar__logo .bottom_bun {
+  box-sizing: border-box;
+  width: 77.62px;
+}
+
+header .hero__logobar__logo .top_bun, header .hero__logobar__logo .bottom_bun {
+  height: 27.09px;
+  border: 7px solid #1E1713;
+}
+
+header .hero__logobar__logo .patty {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-top: 7px solid #1E1713;
+}
+
+header .hero__logobar__logo .bottom_bun {
+  border-radius: 0 0 18.5px 18.5px;
+}
+
+header .hero__logobar__logo .top_bun {
+  border-radius: 18.5px 18.5px 0 0;
+}
+
+header .hero__logobar__text {
+  position: absolute;
+  margin-top: 52px;
+  margin-left: 89px;
+}
+
+header .hero__logobar__text h2 {
+  color: #D0A26D;
+}
+
+header .hero__content {
+  position: absolute;
+  z-index: 1;
+}
+
+header .hero__content__colorblock {
+  background-color: #B3321D;
+  width: 206px;
+  height: 701px;
+  position: inherit;
+  z-index: -1;
+}
