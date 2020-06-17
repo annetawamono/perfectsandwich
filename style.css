@@ -145,3 +145,41 @@ header .hero__content__desription {
   line-height: 178.7%;
   margin-top: 28px;
 }
+
+.serving {
+  width: 412px;
+  float: right;
+  position: relative;
+  top: -320px;
+}
+
+.serving .serving__button {
+  background-color: #B3321D;
+  box-sizing: border-box;
+  width: 145px;
+  height: 145px;
+  padding-top: 57px;
+  padding-left: 62px;
+}
+
+.serving .serving__list {
+  background-color: #FFFFFF;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 60px;
+  height: 404px;
+}
+
+.serving .serving__list p:nth-child(2), .serving .serving__list p:nth-child(4) {
+  margin-bottom: 45px;
+}
+
+.serving .serving__list h3 {
+  margin-bottom: 10px;
+}
+
+main {
+  clear: right;
+  position: relative;
+  top: -320px;
+}
