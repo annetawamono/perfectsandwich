@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #D0A26D;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+  font-weight: 900;
+  font-size: 70px;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.47em;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.165em;
+}
+
+p, ul, a {
+  font-size: 18px;
+  line-height: 178.8%;
+  letter-spacing: 0.165em;
+}
+
+.container {
+  width: 1030px;
+  max-height: 2936px;
+  overflow: hidden;
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
+  margin: auto;
+  margin-top: 104px;
+}
+
+header.hero {
+  background-color: black;
+  height: 857px;
+  overflow: hidden;
+}
+
+header .hero__imagecover {
+  object-fit: cover;
+  opacity: 0.74;
+  width: 114%;
+  position: relative;
+  top: -79px;
+}
+
+header .hero__logobar {
+  background-color: #1E1713;
+  height: 157px;
+  position: relative;
+  z-index: 2;
+}
+
+header .hero__logobar >div {
+  display: inline-block;
+}
+
+header .hero__logobar__logo {
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  width: 206px;
+  height: 100%;
+  padding-top: 44.72px;
+  padding-left: 64.38px;
+}
+
+header .hero__logobar__logo .top_bun, header .hero__logobar__logo .patty, header .hero__logobar__logo .bottom_bun {
+  box-sizing: border-box;
+  width: 77.62px;
+}
+
+header .hero__logobar__logo .top_bun, header .hero__logobar__logo .bottom_bun {
+  height: 27.09px;
+  border: 7px solid #1E1713;
+}
+
+header .hero__logobar__logo .patty {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-top: 7px solid #1E1713;
+}
+
+header .hero__logobar__logo .bottom_bun {
+  border-radius: 0 0 18.5px 18.5px;
+}
+
+header .hero__logobar__logo .top_bun {
+  border-radius: 18.5px 18.5px 0 0;
+}
+
+header .hero__logobar__text {
+  position: absolute;
+  margin-top: 52px;
+  margin-left: 89px;
+}
+
+header .hero__logobar__text h2 {
+  color: #D0A26D;
+}
+
+header .hero__content {
+  position: absolute;
+  z-index: 1;
+}
+
+header .hero__content__colorblock {
+  background-color: #B3321D;
+  width: 206px;
+  height: 700px;
+  position: inherit;
+  z-index: -1;
+}
+
+header .hero__content__title, header .hero__content__desription, header .hero__content__underline {
+  color: #FFFFFF;
+  margin-left: 89px;
+}
+
+header .hero__content__title {
+  margin-top: 74px;
+  margin-bottom: 31px;
+}
+
+header .hero__content__underline {
+  width: 151px;
+  border-top: 9px solid #FFFFFF;
+}
+
+header .hero__content__desription {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.165em;
+  line-height: 178.7%;
+  margin-top: 28px;
+}
+
+.serving {
+  width: 412px;
+  float: right;
+  position: relative;
+  top: -320px;
+}
+
+.serving .serving__button {
+  background-color: #B3321D;
+  box-sizing: border-box;
+  width: 145px;
+  height: 145px;
+  padding-top: 57px;
+  padding-left: 62px;
+  transition: 0.3s;
+}
+
+.serving .serving__button:hover {
+  background-color: #1E1713;
+}
+
+.serving .serving__list {
+  background-color: #FFFFFF;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 60px;
+  height: 404px;
+}
+
+.serving .serving__list p:nth-child(2), .serving .serving__list p:nth-child(4) {
+  margin-bottom: 45px;
+}
+
+main {
+  clear: right;
+  position: relative;
+  top: -320px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #1E1713;
+  padding-top: 69px;
+  padding-bottom: 75px;
+  color: #FFFFFF;
+}
+
+.ingredients h2 {
+  width: 412px;
+  text-align: center;
+}
+
+.ingredients .ingredients__title__underline {
+  width: 49px;
+  border-top: 4px solid #FFFFFF;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ingredients .ingredients__list {
+  flex-grow: 2;
+}
+
+.ingredients .ingredients__list ul {
+  text-align: center;
+  list-style-position: inside;
+  list-style: none;
+}
+
+.ingredients .ingredients__list li:before {
+  content: "- ";
+}
+
+.recipe {
+  background-color: #B3321D;
+  display: flex;
+  flex-direction: row;
+  height: 193px;
+  overflow: hidden;
+  margin-top: 49px;
+}
+
+.recipe .recipe__title h2 {
+  width: 412px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 70px;
+}
+
+.recipe .recipe__img img {
+  width: 100%;
+  position: relative;
+  top: -111px
+}
+
+.steps {
+  background-color: #FFFFFF;
+  margin-top: 59px;
+  margin-bottom: 59px;
+  padding-top: 71px;
+  padding-bottom: 71px;
+}
+
+.steps ol {
+  width: 778px;
+  margin: auto;
+  list-style: none;
+}
+
+.steps h3 {
+  margin-bottom: 10px;
+}
+
+.steps p {
+  line-height: 239.7%;
+}
+
+.steps p:nth-child(2), .steps p:nth-child(4) {
+  margin-bottom: 42px;
+}
+
+footer {
+  background-color: #1E1713;
+  position: relative;
+  top: -320px;
+  height: 183px;
+  text-align: center;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  padding-top: 60px;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer a:active, footer a:visited, footer a:focus {
+  color: #FFFFFF;
+}
