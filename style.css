@@ -165,6 +165,11 @@ header .hero__content__desription {
   height: 145px;
   padding-top: 57px;
   padding-left: 62px;
+  transition: 0.3s;
+}
+
+.serving .serving__button:hover {
+  background-color: #1E1713;
 }
 
 .serving .serving__list {
