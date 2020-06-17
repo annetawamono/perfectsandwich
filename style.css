@@ -204,7 +204,7 @@ main {
   text-align: center;
 }
 
-.ingredients .ingredients__underline {
+.ingredients .ingredients__title__underline {
   width: 49px;
   border-top: 4px solid #FFFFFF;
   margin-top: 25px;
