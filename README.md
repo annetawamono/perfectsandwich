@@ -14,5 +14,5 @@ Cheesy and beefy, the perfect sandwich is possible to make with this easy to fol
 ## Project todo
 
 This is a list of features and fixes I intend to address for the project:
-[ ] Add responsive views for mobile and tablet
-[ ] Add interaction animations
+- [ ] Add responsive views for mobile and tablet
+- [ ] Add interaction animations
